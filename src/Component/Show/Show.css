@@ -1,0 +1,69 @@
+.cards{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.showcard{
+    flex-direction: column;
+    width: 22%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+p{
+    margin-bottom: 0!important;
+}
+.showcard img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.cardbtn{
+    width: 50%;
+    border: 1px solid #000 !important;
+}
+.show-card-content{
+    flex-direction: column;
+}
+.show-card-content h4{
+    font-size: 1.5rem;
+    font-family: 'Instrument Serif', serif;
+}
+
+/* Pagination */
+.Pagination{
+    gap: 20px;
+}
+
+.pagination-btn{
+    width: 80px;
+    border: 1px solid rgb(3,37,65);
+    background: rgb(3,37,65);
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 2px;
+}
+.pagination-btn:hover{
+    background: #fff;
+    color: rgb(3,37,65);;
+}
+
+/* media queries */
+
+@media screen and (max-width:450px){
+    .showcard{
+        flex-direction: row;
+        width: 100%;
+    }
+    .showcard img{
+        width: 40%;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .show-card-content{
+        width: 60%;
+    }
+    .cardRate{
+        flex-direction: column;
+        gap: 5px!important;
+    }
+    .showHead{
+        font-size: 1.2rem;
+    }
+}

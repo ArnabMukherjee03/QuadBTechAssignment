@@ -1,0 +1,28 @@
+.media-scroller{
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: column;
+    grid-auto-columns: 10%;
+    overflow-x: scroll;
+   
+}
+.castCard img{
+    width: 100%;
+}
+.castHead{
+    font-family: 'Instrument Serif', serif;
+    font-size: 2rem;
+}
+
+.charecter{
+    font-family: 'Instrument Serif', serif;
+}
+
+@media screen and (max-width:450px){
+    .castHead{
+        text-align: center;
+    }
+    .media-scroller{
+        grid-auto-columns: 40%;
+    }
+}

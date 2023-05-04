@@ -1,0 +1,65 @@
+.showdetails{
+    gap: 20px;
+}
+.showdetails img{
+    width: 30%;
+}
+p{
+    margin-bottom: 0px;
+}
+.showdetailsContent{
+    width: 70%;
+}
+.showName{
+    font-family: 'Instrument Serif', serif;
+    font-size: 2.3rem;
+}
+.info-item p:nth-child(1){
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.2rem;
+}
+.showInfoHead{
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.5rem;
+}
+.showInfo{
+    flex-direction: column;
+}
+.showInfoItem{
+   justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:450px){
+    .showdetails{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .showdetails img{
+        width: 50%;
+    }
+    .showdetails .ps-4{
+        padding-left: 0px!important;
+    }
+    .showdetailsContent{
+        width: 100%;
+    }
+    .showName{
+        text-align: center;
+       
+    }
+    .summary{
+        text-align: justify;
+        
+    }
+    .showInfoHead{
+        text-align: center;
+    }
+    .showInfoItem{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
